@@ -46,8 +46,8 @@ paymentCltr.create = async (req, res) => {
                     quantity: item.quantity
                 }
             }),
-            success_url: 'https://sharespace-xwig.onrender.com/success',
-            cancel_url: 'https://sharespace-xwig.onrender.com/cancel'
+            success_url: 'https://work-space-front-end-git-main-veerasekhar9298.vercel.app/success',
+            cancel_url: 'https://work-space-front-end-git-main-veerasekhar9298.vercel.app/cancel'
         })
 
       const payment = new Payment()
