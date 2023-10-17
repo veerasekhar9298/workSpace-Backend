@@ -46,8 +46,8 @@ paymentCltr.create = async (req, res) => {
                     quantity: item.quantity
                 }
             }),
-            success_url: 'http://localhost:3000/success',
-            cancel_url: 'http://localhost:3000/cancel'
+            success_url: 'https://sharespace-xwig.onrender.com/success',
+            cancel_url: 'https://sharespace-xwig.onrender.com/cancel'
         })
 
       const payment = new Payment()
