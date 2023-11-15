@@ -50,7 +50,7 @@ paymentCltr.create = async (req, res) => {
             cancel_url: 'https://work-space-front-end-git-main-veerasekhar9298.vercel.app/cancel'
         })
 
-      const payment = new Payment()
+      const payment = new Payment() 
             payment.amount=req.body.totalPrice
             payment.userId = req.user._id
             payment.Method = "Card"

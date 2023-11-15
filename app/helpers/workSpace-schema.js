@@ -14,16 +14,16 @@ const workspaceSchema = {
         errorMessage: "Workspace location must be provided",
       },
     },
-    facilities: {
-      isArray: {
-        errorMessage: "Facilities must be an array",
-      },
-    },
-    images: {
-      isArray: {
-        errorMessage: "Images must be an array",
-      },
-    },
+    // facilities: {
+    //   isArray: {
+    //     errorMessage: "Facilities must be an array",
+    //   },
+    // },
+    // images: {
+    //   isArray: {
+    //     errorMessage: "Images must be an array",
+    //   },
+    // },
     owner: {
       notEmpty: {
         errorMessage: "Workspace owner must be provided",
